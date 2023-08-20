@@ -1,7 +1,7 @@
  # SNHU CS-370-X6161 Readme
- Joel De Alba
- Southern New Hampshire University
- Professor Timothy Alexander
+ Joel De Alba, 
+ Southern New Hampshire University, 
+ Professor Timothy Alexander, 
  August 20, 2023
  ##
 
