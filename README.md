@@ -1,4 +1,4 @@
- # SNHU CS-370 Readme
+ # SNHU CS-370 Current / Emerging Trends Readme
  Joel De Alba, 
  Southern New Hampshire University, 
  Professor Timothy Alexander, 
