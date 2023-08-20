@@ -1,0 +1,10 @@
+Collected Sources from Modules 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Reading Book
+
+Gulli, A., & Pal, S. (2017). Deep learning with keras : 
+    Get to grips with the basics of keras to implement 
+    fast and efficient deep-learning models. Packt Publishing, Limited.
+
