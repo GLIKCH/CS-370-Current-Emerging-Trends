@@ -8,9 +8,9 @@
 Welcome to the CS-370-X6161 Current/Emerging Trends in CS 23EW6 assignments repository. This repo contains code and documentation for assignments in the course taught by Professor Timothy Alexander, focusing on Week 5 to Week 7. Here's a quick overview of completed assignments:
 ##
 
-## Week 5 Module 5
+Week 5 Module 5
 
-# 5-2 Project Milestone - Pirate Intelligent Agent
+ 5-2 Project Milestone - Pirate Intelligent Agent
 Designed an AI pirate agent to navigate pathways and obstacles in a treasure hunt game. Used deep Q-learning algorithm for agent training.
 
 # 5-1 Assignment - Cartpole Problem
