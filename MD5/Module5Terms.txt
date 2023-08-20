@@ -1,0 +1,85 @@
+##########################################
+#           Q - Learning                 #
+##########################################
+
+Q-learning is a model-free, off-policy reinforcement learning algorithm used to learn optimal policies in an environment. It is a widely used algorithm for solving Markov Decision Processes (MDPs) without requiring a model of the environment.
+
+! -- Important Simple Definition -- !
+Q-Learning is a reinforcement learning policy which will find the next best action, given a current state. It chooses this action at random and aims to maximize the reward.
+! -- -- -- -- -- -- -- -- -- -- --  !
+
+In Q-learning, the agent learns a state-action value function, commonly denoted as Q(s, a), which represents the expected cumulative reward the agent can achieve by taking action 'a' in state 's',
+and then following an optimal policy thereafter.
+
+Q-learning maintains a Q-table, which is a matrix with rows corresponding to different states and columns corresponding to different actions. The agent updates the Q-values in this table as it explores the environment and learns from experiences.
+
+Q-learning uses Temporal Difference TD learning, which means it updates Q-values based on the difference between the observed reward and the expected reward for the current action and the next best action in the following state.
+
+Q-Learning Process:
+
+Initialization: Initialize the Q-table with arbitrary values or zeros.
+
+Action Selection: 
+In each time step, the agent selects an action based on an exploration-exploitation strategy, such as epsilon-greedy, to balance exploration of new actions and exploitation of learned knowledge.
+
+Environment Interaction: 
+The agent takes the selected action, observes the reward and next state, and updates its Q-value based on the TD error.
+
+Q-Value Update: 
+The Q-value of the current state-action pair is updated using the formula:
+Q(s, a) = Q(s, a) + α * (r + γ * max(Q(s', a')) - Q(s, a))
+
+where:
+
+α is the learning rate, controlling the magnitude of the Q-value updates.
+r is the observed reward after taking action 'a' in state 's'.
+γ is the discount factor, determining the importance of future rewards.
+max(Q(s', a')) is the maximum Q-value of the possible next actions in the next state 's'.
+
+Repeat: The agent continues to interact with the environment, selecting actions, updating Q-values, and learning from experiences until it converges to an optimal policy or reaches a certain number of episodes.
+
+Advantages and Limitations:
+
+Advantages:
+Q-learning is a simple and effective algorithm for solving MDPs and finding optimal policies.
+It can handle large state and action spaces.
+Q-learning is model-free, meaning it does not require explicit knowledge of the environment dynamics.
+
+Limitations:
+Q-learning may suffer from slow convergence or instability, especially in large and complex environments.
+The Q-table can become large and impractical for continuous state and action spaces.
+It may struggle in situations with sparse rewards or when dealing with high-dimensional input spaces.
+
+Extensions and Improvements:
+Several extensions and improvements have been proposed to address the limitations of Q-learning, such as Deep Q-Networks (DQNs) that use deep neural networks to approximate the Q-values, and Double Q-learning to reduce overestimation biases. These variations have proven to be more efficient in complex environments and large state spaces, making them popular choices for deep reinforcement
+learning tasks.
+
+
+---------------------------------------------------------------------------------
+
+The Bellman Equation is used to determine the value of a particular state and deduce how good it is to be in/ take that state. 
+
+The "/" is in there for a reason provided with the text to give space and context behind the syntax.
+
+New Q(S, A) = Q(S, A) + α [R(S, A) + γ Max Q'(S', A') - Q(S, A)]
+
+              Q(S, A) = Current Q Value
+                        α = Learning Rate
+                          R(S,A) = Reward
+                                    γ = Discount Rate
+                                       Max Q'(S', A') = Maximum Expected Future Reward
+
+   
+Factors Influencing Q-Values:
+    Current State and Action (S, A)
+    Previous State and Action (S', A')
+    Reward for Action, R
+    Maximum Expected Future Reward
+
+
+Steps:
+
+1. Create an initial Q-Table with all values initialized to 0.
+2. Choose an action and perform it. Update values in the table.
+3. Get the value of the reward and calculate the value Q-Value using the Bellman Equation.
+4. Continue the same until the table is filled or an episode ends.

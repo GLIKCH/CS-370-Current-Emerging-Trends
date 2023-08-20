@@ -1,0 +1,7 @@
+Sources
+-----------------------------------------------
+
+Violante, A. (2019 March 18). Simple reinforcement learning: Q-learning. Medium: Towards Data Science. Retrieved from https://towardsdatascience.com/simple-reinforcement-learning-q-learning-fcddc4b6fe56
+
+Banoula, M. (2023). What Is Q-Learning: The Best Guide To Understand Q-Learning. Simplilearn.com. https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-q-learning
+
