@@ -17,13 +17,13 @@ Designed an AI pirate agent to navigate pathways and obstacles in a treasure hun
 Solved the Cartpole problem using Q-learning algorithm. The challenge is balancing a pole on a moving cart, optimizing actions for cumulative reward.
 ##
 
--- Week 6 Module 6
+Week 6 Module 6
 
 - 6-2 Assignment - Cartpole Revisited
 Explored policy-based methods for Cartpole. Implemented REINFORCE and A2C algorithms. These directly optimize policy parameters for reward maximization.
 ##
 
--- Week 7 Module 7
+Week 7 Module 7
 
 - 7-3 Project Two Submission - Pirate Intelligent Agent
 Developed an intelligent agent for a treasure hunt game. Utilized deep Q-learning for agent training. Provided design defense to explain approach and algorithm evaluation.
