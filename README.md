@@ -5,7 +5,7 @@
  August 20, 2023
  
 
-Welcome to the CS-370-X6161 Current/Emerging Trends in CS 23EW6 assignments repository. This repo contains code and documentation for assignments in the course taught by Professor Timothy Alexander, focusing on Week 5 to Week 7. Here's a quick overview of completed assignments:
+Welcome to the CS-370-X6161 Current/Emerging Trends in CS 23EW6 assignments repository. This repo contains code and documentation for assignments in the course focusing on Week 5 to Week 7. Here's a quick overview of completed assignments:
 ##
 
 Week 5 Module 5
